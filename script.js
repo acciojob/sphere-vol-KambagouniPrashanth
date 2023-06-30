@@ -3,8 +3,8 @@ function volume_sphere() {
     const form=document.querySelector("#MyForm")
     const radius=form["radius"].value;
     const volume=form["volume"].value;
-    console.log(radius)
-    console.log(volume)
+    // console.log(radius)
+    // console.log(volume)
     return radius*volume;
 
   
